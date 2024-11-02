@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['indomie_aceh', 'ultramilk_plain_big', 'wow_spaghetti_yellow']
+
+roboflow:
+  workspace: ta-htobz
+  project: datasettest-86yvo
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ta-htobz/datasettest-86yvo/dataset/3
